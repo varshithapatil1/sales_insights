@@ -1,4 +1,4 @@
-## sales_insights_ DATA_ANALYSIS_PROJECT
+## sales_insights_ DATA ANALYSIS PROJECT
 
 Built a comprehensive sales insights dashboard to analyze revenue trends, profit margins, top customers, and regional performance. Extracted and transformed raw sales data using SQL, applied data modeling, and created interactive Power BI visualizations to support data-driven business decisions and sales strategy optimization.
 
@@ -47,4 +47,4 @@ Data Analysis Using Power BI
 
 1. Formula to create norm_amount column
 
-'= Table.AddColumn(#"Filtered Rows", "norm_amount", each if [currency] = "USD" or [currency] ="USD#(cr)" then [sales_amount]*75 else [sales_amount], type any)'
+`= Table.AddColumn(#"Filtered Rows", "norm_amount", each if [currency] = "USD" or [currency] ="USD#(cr)" then [sales_amount]*75 else [sales_amount], type any)`
